@@ -25,6 +25,19 @@ title: JSON BNF grammar
         | "null"
     ]
 
+    string = '"' [ char [ char ]* ] '"'
+
+    char = any unicode character except " or \ or control-character
+           | '\"'
+           | '\\'
+           | '\/'
+           | '\b'
+           | '\f'
+           | '\n'
+           | '\r'
+           | '\t'
+           | '\u' + four-hex-digits
+
     array = [ '[' elements? ']' ]
 
     elements = [ value [',' value]* ]
