@@ -1,3 +1,7 @@
+---
+title: Lua BNF grammar
+---
+
 # Lua
 
     chunk ::= {stat [`;´]} [laststat [`;´]]
