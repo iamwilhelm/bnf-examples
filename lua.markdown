@@ -6,7 +6,7 @@ title: Lua BNF grammar
 
 [Lua](lua.org) is an easy to learn language that is often used as an
 embedded scripting language inside of other languages. You can find
-it in use inside of [World of Warcraft](http://www.wowwiki.com/Lua_functions),
+it in use inside of [World of Warcraft](http://www.wowwiki.com/Lua_functions) and 
 [Redis](http://redis.io/commands/eval).
 
     chunk ::= {stat [`;´]} [laststat [`;´]]
