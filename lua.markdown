@@ -5,9 +5,15 @@ title: Lua BNF grammar
 # Lua BNF
 
 [Lua](lua.org) is an easy to learn language that is often used as an
-embedded scripting language inside of other languages. You can find
+embedded scripting language inside of other languages, or as a stand-alone language in
+its own right.
+
+You can find
 it in use inside of [World of Warcraft](http://www.wowwiki.com/Lua_functions) and 
-[Redis](http://redis.io/commands/eval).
+[Redis](http://redis.io/commands/eval) as an embedded language.
+
+And as a stand-alone language, it can be used to make 2D games with
+[LÖVE](https://love2d.org/)
 
     chunk ::= {stat [`;´]} [laststat [`;´]]
     
